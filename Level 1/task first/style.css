@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    line-height: 1.6;
+    background-color: beige;
+}
+
+.container1{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+}
+
+header{
+    background-color: rgb(50, 48, 48);
+    color: #f4ebeb;
+    padding: 10px 0;
+    width: 100%;
+    top: 0;
+}
+
+.container1 nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.corner{
+    margin-left: 42rem;
+    
+}
+
+.corner li a{
+    float: left;
+    color: rgb(211, 204, 204);   
+    text-decoration: none;
+    font-size: 16px;
+
+}
+
+#fbox{
+    background-image: url('front.webp');
+    background-size:contain;
+    height: 995px;
+    
+}
+
+.container2{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+}
+
+.container2 h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+}
+
+.container2 p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 45px;
+    left: 33rem;
+    font-size: 19px;
+}
+
+.btn{
+    position: absolute;
+    top: 53%;
+    margin-top: 75px;
+    left: 44rem;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    background-color: palevioletred;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in;
+}
+
+.btn:hover{
+    background-color: rgb(220, 64, 220);
+    color: rgb(57, 54, 54);
+}
+
+
+.sbox{
+    padding: 75px 0;
+
+}
+
+.sbox p{
+    font-size: larger;
+}
+
+.main{
+    display: flex;
+}
+
+.container4 img{
+    top: 10px;
+    margin-left: 20px;
+    height: 264px;
+    width: 284px;
+    border-radius: 6px;
+}
+
+p.bottom {
+    position: absolute;
+    left: 19px;
+    top: 107rem;
+    font-size: 1.7rem;
+}
+
+p.bottom-second{
+    position: absolute;
+    left: 326px;
+    top: 107rem;
+    font-size: 1.7rem;
+}
+
+p.bottom-third{
+    position: absolute;
+    left: 630px;
+    top: 107rem;
+    font-size: 1.7rem;
+}
+
+/* .img-third{
+    flex-direction: row-reverse;
+} */
+
+.fbox{
+    height: 85vh;
+    background-color: rgb(236, 229, 219);
+}
+
+.text-center{
+    text-align: center;
+    padding: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+}
+
+.form{
+    max-width: 307px;
+    font-size: medium;
+    margin: auto;
+}
+
+.form input{
+    margin: 25px;
+    padding: 5px 3px;
+    width: 100%;
+    font-size: 19%;
+    border: 2px solid rgb(90, 89, 89);
+    border-radius: 6px;
+    font-size: medium;
+
+}
+.form-input{
+    margin: 30px;
+    padding: 20px;
+}
+
+.fbox{
+    margin-top: 45px;
+}
+
+.button{
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 90px;
+    background-color: rgb(218 103 103);
+    padding: 12px;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+.button:hover{
+    background-color: rgb(143, 62, 76);
+}

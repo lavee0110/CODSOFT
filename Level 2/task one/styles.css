@@ -1,0 +1,41 @@
+*{
+    margin: 2px;
+    padding: 2px;
+}
+
+.dis{
+     grid-column: span 4;
+     text-align: right;
+     font-size: large;
+     background-color: white;
+     margin: 0px 8px;
+     padding: 4px;
+     border-radius: 7px;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    width: 266px;
+    height: 310px;
+    margin: 23px auto;
+    padding: 3%;  
+    /* border: 1px solid rgb(214, 143, 155); */
+    background-color: pink;
+    border-radius: 17px;
+}
+
+.btn{
+    padding: 6px;
+    border-radius: 22px;
+    border: none;
+    font-size: large;
+    background-color: white;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+.btn:hover{
+    box-shadow: 3px 7px 5px rgb(240, 112, 156);
+}
